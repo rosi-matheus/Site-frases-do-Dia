@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.limite-secao {
+    width: 100%;
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #F5DA81;
+    font-family: 'Playfair Display, Roboto';
+     position: fixed;
+        width: 100%;
+    
+}
+
+header {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid gray;
+}
+
+.topo h1 {
+    font-size: 30px;
+    padding: 10px;
+    color: #FF8000
+}
+
+main {
+    background-image: url(../assets/pergaminho.png);
+    background-size: cover; /* Alteração aqui */
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: calc(100vh - 58px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-frases {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: #FE2E2E; /* Cor do texto */
+
+}
+
+.conteudo-frases p {
+    padding: 5px;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    color: #FFFF00
+}
+
+.botao {
+    padding: 10px;
+    background-color: #FF8000;
+    border-radius: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #F5DA81;
+    color: black; 
+}
+
+footer a {
+    color: #FF8000; 
+}
+a {
+    text-decoration: none;
+}
